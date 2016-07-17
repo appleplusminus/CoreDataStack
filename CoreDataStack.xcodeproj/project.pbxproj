@@ -12,6 +12,7 @@
 		34786D3C1D3B8D8300CEE8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34786D3A1D3B8D8300CEE8DB /* Main.storyboard */; };
 		34786D3E1D3B8D8300CEE8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34786D3D1D3B8D8300CEE8DB /* Assets.xcassets */; };
 		34786D411D3B8D8300CEE8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34786D3F1D3B8D8300CEE8DB /* LaunchScreen.storyboard */; };
+		34786D491D3B8DBD00CEE8DB /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34786D481D3B8DBC00CEE8DB /* CDHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		34786D3D1D3B8D8300CEE8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34786D401D3B8D8300CEE8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34786D421D3B8D8300CEE8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34786D481D3B8DBC00CEE8DB /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				34786D361D3B8D8300CEE8DB /* AppDelegate.swift */,
 				34786D381D3B8D8300CEE8DB /* ViewController.swift */,
+				34786D481D3B8DBC00CEE8DB /* CDHelper.swift */,
 				34786D3A1D3B8D8300CEE8DB /* Main.storyboard */,
 				34786D3D1D3B8D8300CEE8DB /* Assets.xcassets */,
 				34786D3F1D3B8D8300CEE8DB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				34786D391D3B8D8300CEE8DB /* ViewController.swift in Sources */,
 				34786D371D3B8D8300CEE8DB /* AppDelegate.swift in Sources */,
+				34786D491D3B8DBD00CEE8DB /* CDHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
