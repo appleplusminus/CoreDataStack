@@ -13,6 +13,7 @@
 		34786D3E1D3B8D8300CEE8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34786D3D1D3B8D8300CEE8DB /* Assets.xcassets */; };
 		34786D411D3B8D8300CEE8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34786D3F1D3B8D8300CEE8DB /* LaunchScreen.storyboard */; };
 		34786D491D3B8DBD00CEE8DB /* CDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34786D481D3B8DBC00CEE8DB /* CDHelper.swift */; };
+		34786D711D40F25200CEE8DB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34786D6F1D40F25200CEE8DB /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		34786D401D3B8D8300CEE8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34786D421D3B8D8300CEE8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34786D481D3B8DBC00CEE8DB /* CDHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDHelper.swift; sourceTree = "<group>"; };
+		34786D701D40F25200CEE8DB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				34786D361D3B8D8300CEE8DB /* AppDelegate.swift */,
 				34786D381D3B8D8300CEE8DB /* ViewController.swift */,
 				34786D481D3B8DBC00CEE8DB /* CDHelper.swift */,
+				34786D6F1D40F25200CEE8DB /* Model.xcdatamodeld */,
 				34786D3A1D3B8D8300CEE8DB /* Main.storyboard */,
 				34786D3D1D3B8D8300CEE8DB /* Assets.xcassets */,
 				34786D3F1D3B8D8300CEE8DB /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				34786D391D3B8D8300CEE8DB /* ViewController.swift in Sources */,
 				34786D371D3B8D8300CEE8DB /* AppDelegate.swift in Sources */,
 				34786D491D3B8DBD00CEE8DB /* CDHelper.swift in Sources */,
+				34786D711D40F25200CEE8DB /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +296,22 @@
 				34786D471D3B8D8300CEE8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34786D6F1D40F25200CEE8DB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34786D701D40F25200CEE8DB /* Model.xcdatamodel */,
+			);
+			currentVersion = 34786D701D40F25200CEE8DB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 34786D2B1D3B8D8300CEE8DB /* Project object */;
 }
