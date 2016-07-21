@@ -11,4 +11,23 @@ import CoreData
 
 class CDHelper {
     
+    lazy var modelURL: NSURL = {
+        
+        let bundle = NSBundle.mainBundle()
+        
+        if let url = bundle.URLForResource("Model", withExtension: "momd") {
+            return url
+        }
+        
+        print("CRITICAL - Managed Object Model file not found")
+        
+        abort()
+        
+    }()
+    
+    lazy var model: NSManagedObjectModel = {
+       
+        return NSManagedObjectModel(contentsOfURL: self.modelURL)!
+    }()
+    
 }
